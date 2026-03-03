@@ -42,7 +42,7 @@ Copy the configuration files and the inference script from this repository to th
 Use the following command to run inference on your images:
 
 ```bash
-python tools/infer.py --config projects/configs/co_dino_vit/co_dino_5scale_vit_large_coco_instance_isbi_a_final.py --weights [path_to_weights] --img-dir [path_to_images]
+python tools/infer.py --config projects/configs/co_dino_vit/[config_file] --weights [path_to_weights] --img-dir [path_to_images]
 ```
 
 ## ⚙️ Methodology
