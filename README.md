@@ -18,8 +18,31 @@ Our solution secured top placements across both evaluation tracks:
 
 ## 🚀 How to reproduce our results
 
+To reproduce our results, you need to set up the **Co-DETR** environment and use our provided configuration files and inference script.
+
+### 1. Setup Co-DETR
+
+First, clone the official Co-DETR repository and install the required dependencies:
+
 ```bash
-python infer.py --config [config path] --weights [model weights] --img-dir [your image path]
+git clone https://github.com/Sense-X/Co-DETR.git
+cd Co-DETR
+# Follow the installation instructions in the Co-DETR README to set up the environment
+```
+
+### 2. Prepare Configuration and Scripts
+
+Copy the configuration files and the inference script from this repository to the Co-DETR directory structure:
+
+* **Config Files:** Copy `co_dino_5scale_vit_large_coco_instance_isbi*.py` to `Co-DETR/projects/configs/co_dino_vit/`
+* **Inference Script:** Copy `infer.py` to `Co-DETR/tools/`
+
+### 3. Run Inference
+
+Use the following command to run inference on your images:
+
+```bash
+python tools/infer.py --config projects/configs/co_dino_vit/co_dino_5scale_vit_large_coco_instance_isbi_a_final.py --weights [path_to_weights] --img-dir [path_to_images]
 ```
 
 ## ⚙️ Methodology
