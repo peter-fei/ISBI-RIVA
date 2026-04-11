@@ -14,7 +14,7 @@ Our solution secured top placements across both evaluation tracks:
   * Focus: Fine-grained classification of 8 categories (NILM, ENDO, INFL, ASC-US, LSIL, HSIL, ASC-H, SCC).
 * **Track B (Single-class Detection):**
 
-  * **3rd Place mAP: 0.6044 (Preliminary) / 0.5906 (Final)**
+  * **3rd Place mAP: 0.6036 (Preliminary) / 0.5906 (Final)**
 
 ## 🚀 How to reproduce our results
 
